@@ -64,7 +64,7 @@ NOTE: This will be a callback function for the tasks below
 */
 
 function inning(/*Code Here*/){
-  return Math.floor(Math.random() * 2)
+  return Math.floor(Math.random() * 3)
 }
 
 
@@ -165,7 +165,7 @@ function scoreboard(getInningScore, inning, numin) {
   return scores
 }
 console.log(scoreboard(getInningScore, inning, 3))
-console.log(getInningScore(inning))
+// console.log(getInningScore(inning))
 
 
 /* 🛑🛑🛑🛑🛑 Please do not modify anything below this line 🛑🛑🛑🛑🛑 */
